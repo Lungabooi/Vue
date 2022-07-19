@@ -30,12 +30,10 @@ export default {
 </script>
 <style >
 .container{
-  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  gap: 10px;
  font-family:serif;
 }
 p{
@@ -46,6 +44,7 @@ p{
   align-content: center;
   align-self: center;
   cursor: pointer;
+  flex-wrap: wrap;
   
 }
 img:hover {
