@@ -22,12 +22,12 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-family:serif;
+  font-family:serif;
+  scroll-behavior: smooth;
 }
 
 .landing {
   display: flex;
-  /* background: #000; */
   min-height: 100vh;
   align-items: center;
   justify-content: center;

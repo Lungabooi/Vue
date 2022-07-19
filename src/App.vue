@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/resume">Resume</router-link> |
-      <router-link to="/project">Project</router-link> |
+      <router-link to="/project">Projects</router-link> |
     <router-link to="/testimonial">Testimonial</router-link> |
     <router-link to="/contact">Contact</router-link>
   </nav>

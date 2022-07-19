@@ -4,7 +4,7 @@
   <div class="container fluid">
   <div class="row gx-1 about shadow p-3 mb-5 bg-white rounded row">
 
-    <div class="col-md-6">  <p class="text">Hi I am Lunga Booi
+    <div class="col-md-3">  <p class="text">Hi I am Lunga Booi
 Full Stack Developer
 
 I am a curious person who loves reading and understanding the content from the roots.
@@ -15,7 +15,7 @@ My passion is to design and develop web applications.</p>
 
     </div></div>
 
-    <div class="col-md-6">
+    <div class="col-md-3">
     <img src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg" style="width: 280px" alt="" /></div>
 
     </div>

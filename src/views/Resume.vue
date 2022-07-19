@@ -1,11 +1,11 @@
 <template lang="">
-    <div>
+    <div class="content">
         <div class="page-content page-container" id="page-content">
     <div class="padding">
         <div class="row">
             
             <div class="col-lg-6">
-                <p>My Journey</p>
+                <p class="journey">My Journey</p>
                 <div class="timeline p-4 block mb-4">
                     <div class="tl-item active">
                         <div class="tl-dot b-warning"></div>
@@ -24,17 +24,25 @@
                     <div class="tl-item">
                         <div class="tl-dot b-primary"></div>
                         <div class="tl-content">
-                            <div class="">Administration Assistant</div>
-                            <div class="tl-date text-muted mt-1"> June 2018</div>
+                            <div class="">Waiter</div>
+                            <div class="tl-date text-muted mt-1"> June 2019</div>
                         </div>
                     </div>
                     <div class="tl-item">
+                        <div class="tl-dot b-danger"></div>
+                        <div class="tl-content">
+                            <div class="">Adminnstration Assistant</div>
+                            <div class="tl-date text-muted mt-1">June 2018</div>
+                        </div>
+                    </div>
+                     <div class="tl-item">
                         <div class="tl-dot b-danger"></div>
                         <div class="tl-content">
                             <div class="">Masiyile Senior Secondary School Matric</div>
                             <div class="tl-date text-muted mt-1">2017</div>
                         </div>
                     </div>
+                
                 
                 </div>
             </div>
@@ -252,6 +260,15 @@ tl-item.active .tl-dot:before {
 
 .b-danger {
     border-color: #f54394!important;
+}
+.content{
+    background-image: url(https://i.postimg.cc/ryZTTPQF/sunset-1373171-1920.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.journey{
+    font-size: 20px;
 }
     
 </style>

@@ -1,31 +1,29 @@
 <template lang="">
-  <div class="container">
-   <h1>Hello </h1>
-   <form>
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="name" class="form-control">
-     
-     <h4 class="mt-3">Address</h4>
-    <input type="street" class="form-control">
-     <label for="street name">Street Address</label>
-    <input type="name" class="form-control">
-     <label for="street">Street Address Line 2</label>
-    <input type="street name" class="form-control">
-     <label for="name">City</label>
-    <input type="name" class="form-control">
-  
-    </div>
-  
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Submit when you are done.</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<div class="contact">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
-    
-  </div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+     <label for="email">Email</label>
+    <input type="text" id="Email" name="email" placeholder="Your  email.." required>
+
+
+    <label for="province">Province</label>
+    <select id="province" name="province">
+      <option value="Western Cape">Western Cape</option>
+      <option value="Eastern Cape"> Eastern Cape</option>
+      <option value="Gauteng">Gauteng</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"> </textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 </template>
 <script>
 export default {
@@ -33,16 +31,38 @@ export default {
 }
 </script>
 <style>
-form{
-background: rgba( 16, 14, 14, 0.35 );
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #177781;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e4ce3b;
+}
+
+.contact {
+  background: rgba( 166, 107, 32, 0.5 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 11px );
--webkit-backdrop-filter: blur( 11px );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-input{
-  width:50%;
 }
    
 </style>
