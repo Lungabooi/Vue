@@ -6,9 +6,14 @@
       <router-link to="/project">Projects</router-link> |
     <router-link to="/testimonial">Testimonial</router-link> |
     <router-link to="/contact">Contact</router-link>
+    <!-- <button @click="changetheme">Change Theme</button> -->
   </nav>
   <router-view/>
 </template>
+<script>
+
+</script>
+
 
 <style>
 #app {

@@ -1,68 +1,96 @@
-<template lang="">
-<div class="contact">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+<template >
+ <form  action="https://formspree.io/f/xvolwzyz"
+  method="POST">
+  <h3>Nice to meet you</h3>
+<input placeholder="Name"   name="name" class="input" required="">
+<input placeholder="Surname"  name="Surname" class="input" required="">
+<input placeholder="Email"   name="email" class="input" required="">
+<input placeholder="Phone number" name="Phone number" class="input" required="">
+<input placeholder="Location" name="Location" class="input" required="">
+Send me some text
+ <textarea name="message"></textarea>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-     <label for="email">Email</label>
-    <input type="text" id="Email" name="email" placeholder="Your  email.." required>
+<button type="submit"> Submit
+</button>
 
-
-    <label for="province">Province</label>
-    <select id="province" name="province">
-      <option value="Western Cape">Western Cape</option>
-      <option value="Eastern Cape"> Eastern Cape</option>
-      <option value="Gauteng">Gauteng</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"> </textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
+</form>
 </template>
 <script>
 export default {
-    
+  
 }
 </script>
 <style>
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+/* From uiverse.io by @alexruix */
+/* From uiverse.io by @alexruix */
+.input {
+ line-height: 28px;
+ border: 2px solid transparent;
+ border-bottom-color: #777;
+ padding: .2rem 0;
+ outline: none;
+ background-color: transparent;
+ color: #0d0c22;
+ transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-input[type=submit] {
-  background-color: #177781;
-  color: white;
-  padding: 12px 20px;
+.input:focus, input:hover {
+ outline: none;
+ padding: .2rem 1rem;
+ border-radius: 1rem;
+ border-color: #064ca0;
+}
+
+.input::placeholder {
+ color: #777;
+}
+
+.input:focus::placeholder {
+ opacity: 0;
+ transition: opacity .3s;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+  align-items: center;
+  gap:20px;
+  margin:auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  border-radius: 10%;
+  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
+}
+/* From uiverse.io */
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
   cursor: pointer;
+  outline: none;
 }
 
-input[type=submit]:hover {
-  background-color: #e4ce3b;
+button:hover {
+  background-color: #c4c423;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 
-.contact {
-  background: rgba( 166, 107, 32, 0.5 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+button:active {
+  transform: translateY(-1px);
 }
-   
+  
 </style>

@@ -12,6 +12,11 @@
 </template>
 <script>
 export default {
+  computed: {
+    getProjects() {
+      return this.$store.state.projects
+    }
+  },
   
 }
 </script>

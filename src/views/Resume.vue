@@ -21,17 +21,12 @@
                             <div class="tl-date text-muted mt-1">Feb 2020</div>
                         </div>
                     </div>
-                    <div class="tl-item">
-                        <div class="tl-dot b-primary"></div>
-                        <div class="tl-content">
-                            <div class="">Waiter</div>
-                            <div class="tl-date text-muted mt-1"> June 2019</div>
-                        </div>
-                    </div>
+                    
+                    
                     <div class="tl-item">
                         <div class="tl-dot b-danger"></div>
                         <div class="tl-content">
-                            <div class="">Adminnstration Assistant</div>
+                            <div class="">Adminstration Assistant</div>
                             <div class="tl-date text-muted mt-1">June 2018</div>
                         </div>
                     </div>
@@ -42,6 +37,7 @@
                             <div class="tl-date text-muted mt-1">2017</div>
                         </div>
                     </div>
+                    
                 
                 
                 </div>
@@ -50,9 +46,11 @@
         
         </div>
     </div>
+   
 </div>
         
     </div>
+    
 </template>
 <script>
 export default {
