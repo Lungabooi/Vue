@@ -37,7 +37,15 @@ export default createStore({
         netlyfly:"https://charming-bombolone-f0e397.netlify.app/"
       }
       
-    ]
+    ],
+     testimonials:[
+      {
+        id: 1, 
+        name:"",
+        occupation:"",
+        
+      }
+     ]
   },
   getters: {
   },

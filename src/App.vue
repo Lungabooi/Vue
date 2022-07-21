@@ -4,8 +4,8 @@
     <router-link to="/about"><i class="fa-brands fa-medapps"></i></router-link> |
     <router-link to="/resume"><i class="fa-solid fa-file-lines"></i></router-link> |
       <router-link to="/projects"><i class="fa-solid fa-diagram-project"></i></router-link> |
-    <router-link to="/testimonial">Testimonial</router-link> |
-    <router-link to="/contact">Contact</router-link>
+    <router-link to="/testimonial"><i class="fa-solid fa-people-group"></i></router-link> |
+    <router-link to="/contact"><i class="fa-solid fa-address-book"></i></router-link>
     <!-- <button @click="changetheme">Change Theme</button> -->
   </nav>
   <router-view/>
@@ -32,7 +32,7 @@ nav {
 nav a {
   font-weight: bold;
   color: #000000;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 nav a.router-link-exact-active {
