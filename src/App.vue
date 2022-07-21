@@ -1,9 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/resume">Resume</router-link> |
-      <router-link to="/project">Projects</router-link> |
+    <router-link to="/"><i class="fa-solid fa-house"></i></router-link> |
+    <router-link to="/about"><i class="fa-brands fa-medapps"></i></router-link> |
+    <router-link to="/resume"><i class="fa-solid fa-file-lines"></i></router-link> |
+      <router-link to="/projects"><i class="fa-solid fa-diagram-project"></i></router-link> |
     <router-link to="/testimonial">Testimonial</router-link> |
     <router-link to="/contact">Contact</router-link>
     <!-- <button @click="changetheme">Change Theme</button> -->

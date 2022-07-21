@@ -1,4 +1,4 @@
-<template lang="">
+<template >
 <h1>About Me</h1>
 
   <div class="container fluid">
@@ -12,8 +12,8 @@ My passion is to design and develop web applications.</p>
  </div>
 
     <div class="col">
-    <img src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"  style="width: 280px" alt="" /></div>
-    <div><div class="icons">
+    <img id="about-pic" src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"  style="width: 280px" alt="" /></div>
+    <div class="icons">
         <i class="fa-brands fa-html5"></i>
         <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-solid fa-database"></i>
@@ -21,7 +21,7 @@ My passion is to design and develop web applications.</p>
         <i class="fa-brands fa-js"></i>
         <i class="fa-brands fa-bootstrap"></i>
         
-    </div></div>
+    </div>
 
     </div>
 
@@ -33,7 +33,7 @@ export default {
   
 }
 </script>
-<style >
+<style scoped >
 .container{
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ p{
   margin:auto
   
 }
-img:hover {
+#about-pic:hover {
   opacity: 0.5;
 }
 .text:hover {
@@ -81,13 +81,13 @@ i:hover{
   background-color: rgb(246, 242, 242);
 
 }
-img{
+#about-pic{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 h1 {
     padding-top: 5px;
-}
+} 
 
 
   
