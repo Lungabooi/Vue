@@ -21,7 +21,7 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
 /* From uiverse.io by @alexruix */
 /* From uiverse.io by @alexruix */
 .input {
