@@ -53,8 +53,8 @@ margin-left: 70px;
   /* justify-content: space-evenly; */
   background-image:url(https://i.postimg.cc/NMwfNKTC/City.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
+  justify-content: center;
 
 }
 img{
