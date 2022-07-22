@@ -14,12 +14,14 @@ My passion is to design and develop web applications.</p>
     <div class="col">
     <img id="about-pic" src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"  style="width: 280px" alt="" /></div>
     <div class="icons">
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-solid fa-database"></i>
         <i class="fa-brands fa-vuejs"></i>
         <i class="fa-brands fa-js"></i>
         <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-node"></i>
+        <i class="fa-brands fa-windows"></i>
+        <i class="fa-brands fa-linux"></i>
+        <i class="fa-brands fa-git-alt"></i>
         
     </div>
 
@@ -74,11 +76,10 @@ p{
   font-size: 40px;
   flex-wrap: wrap;
   gap:10px;
-  background-color: burlywood;
   padding-top: 12px;
 }
 i:hover{
-  background-color: rgb(246, 242, 242);
+  background-color: rgb(24, 50, 111);
 
 }
 #about-pic{

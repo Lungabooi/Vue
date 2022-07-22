@@ -1,4 +1,5 @@
 <template >
+<div>
  <form  action="https://formspree.io/f/xvolwzyz"
   method="POST">
   <h3>Nice to meet you</h3>
@@ -14,11 +15,15 @@ Send me some text
 </button>
 
 </form>
-<!-- <footer /> -->
+<Footer />
+</div>
 </template>
 <script>
+import Footer from "../components/Footer.vue"
 export default {
-  
+   components: {
+    Footer,
+   }
 }
 </script>
 <style scoped>
@@ -63,9 +68,10 @@ form{
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
+  margin-top: 10px;
 
   border-radius: 10%;
-  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
+  background-image: linear-gradient( 109.5deg,  rgb(195, 212, 214) 11.2%, rgb(167, 172, 192) 91.1% );
 }
 /* From uiverse.io */
 button {
@@ -94,5 +100,4 @@ button:hover {
 button:active {
   transform: translateY(-1px);
 }
-  
 </style>

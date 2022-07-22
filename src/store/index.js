@@ -42,7 +42,7 @@ export default createStore({
         img:"https://i.postimg.cc/5twvq9gx/TodoApp.png",
         title:"This is my todo web application",
         github:"https://github.com/Lungabooi/todo",
-        netlifly:"https://ornate-crepe-3f6c20.netlify.app/"
+        netlify:"https://ornate-crepe-3f6c20.netlify.app"
       },
       {
         id: 6,
@@ -50,7 +50,7 @@ export default createStore({
         img:"https://i.postimg.cc/y6XDfr0T/Temp-convetor.png",
         title:"This is my tempreture convertor web application",
         github:"https://github.com/Lungabooi/Temp",
-        netlifly:"https://ornate-puppy-61fbf1.netlify.app"
+        netlify:"https://ornate-puppy-61fbf1.netlify.app"
       }
       
       

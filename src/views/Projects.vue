@@ -1,7 +1,7 @@
 <template >
 <div id="container-card">
     <div class="cards" v-for="(project, index) in getProjects" :key="index">
-    <span>  <h3>{{project.name}}</h3> {{project.title}} <img :src="project.img"> <a :href="project.github"> <button  type="button" class="btn btn-warning mt-2"><box-icon type='logo' name='github'></box-icon></button> </a>| | <a :href="project.netlify" ><button type="button" class="btn btn-warning mt-2"><box-icon type='logo' name='netlify'></box-icon></button></a></span>
+    <span>  <h3>{{project.name}}</h3> {{project.title}} <img :src="project.img"> <a :href="project.github" target="_blank"> <button  type="button" class="btn btn-warning mt-2"><box-icon type='logo' name='github'></box-icon></button> </a>| | <a :href="project.netlify" target="_blank"><button type="button" class="btn btn-warning mt-2"><box-icon type='logo' name='netlify'></box-icon></button></a></span>
 </div></div>
 
 
