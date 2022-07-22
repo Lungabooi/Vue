@@ -4,13 +4,14 @@
     <router-link to="/about"><i class="fa-brands fa-medapps"></i></router-link> |
     <router-link to="/resume"><i class="fa-solid fa-file-lines"></i></router-link> |
       <router-link to="/projects"><i class="fa-solid fa-diagram-project"></i></router-link> |
-    <router-link to="/testimonial"><i class="fa-solid fa-people-group"></i></router-link> |
+    <router-link to="/testimonials"><i class="fa-solid fa-people-group"></i></router-link> |
     <router-link to="/contact"><i class="fa-solid fa-address-book"></i></router-link>
     <!-- <button @click="changetheme">Change Theme</button> -->
   </nav>
   <router-view/>
 </template>
 <script>
+
 
 </script>
 

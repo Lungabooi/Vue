@@ -14,6 +14,7 @@ Send me some text
 </button>
 
 </form>
+<!-- <footer /> -->
 </template>
 <script>
 export default {
