@@ -54,6 +54,7 @@ margin-left: 70px;
   background-image:url(https://i.postimg.cc/NMwfNKTC/City.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
 
 }
 img{
