@@ -47,7 +47,7 @@ left: 0px;
   display:flex;
   flex-wrap: wrap;
   margin:auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-image:url(https://i.postimg.cc/mrPYK8hX/steve-johnson-Q5-Pso6-WD7-NA-unsplash.jpg);
   background-attachment: fixed;
 }
