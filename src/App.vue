@@ -26,14 +26,14 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 20px;
   background-color: beige;
 }
 
 nav a {
   font-weight: bold;
   color: #000000;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 nav a.router-link-exact-active {
