@@ -1,15 +1,14 @@
 <template >
 <div id="container">
-<form action = "https://formspree.io/f/xvolwzyz" method="POST">
+<form action="https://formspree.io/f/xvolwzyz"  method="POST">
   <input placeholder="Name"   name="name" class="input" required="">
 <input placeholder="Surname"  name="Surname" class="input" required="">
 <input placeholder="Email"   name="email" class="input" required="">
 <input placeholder="Phone number" name="Phone number" class="input" required="">
 <input placeholder="Location" name="Location" class="input" required="">
-<div>
+
 <button type="submit"> Button
 </button>
-</div>
 </form>
 <Footer />
 </div>
