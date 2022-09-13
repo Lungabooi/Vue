@@ -18,6 +18,8 @@ export default {
     background-color: rgb(0, 0, 0);
 }
 footer{
-    margin-top: 20px;
+    margin-top: 37rem;
+    position: absolute;
+    width: 100%;
 }
 </style>

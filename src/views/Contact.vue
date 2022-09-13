@@ -1,19 +1,15 @@
 <template >
-<div>
- <form  action="https://formspree.io/f/xvolwzyz"
-  method="POST">
-  <h3>Nice to meet you</h3>
-<input placeholder="Name"   name="name" class="input" required="">
+<div id="container">
+<form action = "https://formspree.io/f/xvolwzyz">
+  <input placeholder="Name"   name="name" class="input" required="">
 <input placeholder="Surname"  name="Surname" class="input" required="">
 <input placeholder="Email"   name="email" class="input" required="">
 <input placeholder="Phone number" name="Phone number" class="input" required="">
 <input placeholder="Location" name="Location" class="input" required="">
-Send me some text
- <textarea name="message"></textarea>
-
-<button type="submit"> Submit
+<div>
+<button type="submit"> Button
 </button>
-
+</div>
 </form>
 <Footer />
 </div>
@@ -27,77 +23,72 @@ export default {
 }
 </script>
 <style scoped>
-/* From uiverse.io by @alexruix */
-/* From uiverse.io by @alexruix */
-.input {
- line-height: 28px;
- border: 2px solid transparent;
- border-bottom-color: #777;
- padding: .2rem 0;
- outline: none;
- background-color: transparent;
- color: #0d0c22;
- transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: absolute;
+   background-image: radial-gradient(54% 54%,#0000 98%,#c39f76);
+  background-size: 100px 100px
+  }
+  .input {
+ background-color: #383838;
+ border: 1ex solid none;
+ border-top-width: 1.7em;
+ margin: auto;
+ padding: 0;
+ color: #383838;
+ word-wrap: break-word;
+ outline: 7px solid #383838;
+ height: 30px;
+ font-size: 25px;
+ text-align: center;
+ transition: all 1s;
+ max-width: 190px;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
 }
 
-.input:focus, input:hover {
- outline: none;
- padding: .2rem 1rem;
- border-radius: 1rem;
- border-color: #064ca0;
+.input:hover {
+ border-top-width: 0.2em;
+ background-color: #f1e8e8;
 }
 
-.input::placeholder {
- color: #777;
+.input:focus {
+ border-top-width: 0.2em;
+ background-color: #f1e8e8;
 }
-
-.input:focus::placeholder {
- opacity: 0;
- transition: opacity .3s;
-}
-form{
+#container{
+  gap: 30px;
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  justify-content: center;
-  align-self: center;
-  width: 50%;
-  align-items: center;
-  gap:20px;
-  margin:auto;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  margin-top: 10px;
-
-  border-radius: 10%;
-  background-image: linear-gradient( 109.5deg,  rgb(195, 212, 214) 11.2%, rgb(167, 172, 192) 91.1% );
 }
-/* From uiverse.io */
+
 button {
-  padding: 1.3em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
+ color: #090909;
+ padding: 0.7em 1.7em;
+  border-radius: 0.5em;
+ background: #e8e8e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #717171,
+             -6px -6px 12px #d0cccc;
+             
 }
 
 button:hover {
-  background-color: #c4c423;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
+ border: 1px solid white;
 }
 
 button:active {
-  transform: translateY(-1px);
+ box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
 }
+
 </style>
