@@ -1,6 +1,6 @@
 <template >
 <div id="container">
-<form action = "https://formspree.io/f/xvolwzyz">
+<form action = "https://formspree.io/f/xvolwzyz" method="POST">
   <input placeholder="Name"   name="name" class="input" required="">
 <input placeholder="Surname"  name="Surname" class="input" required="">
 <input placeholder="Email"   name="email" class="input" required="">
